@@ -9,7 +9,7 @@ class ChargingPile extends Model
 {
     use HasFactory;
     public $timestamps = false;
-    protected $table = 'chargingpile';
+    protected $table = 'charging_piles_table';
     protected $primaryKey = 'id';
 
         /**
